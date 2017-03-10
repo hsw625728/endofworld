@@ -1062,7 +1062,7 @@
 			buildSettings = {
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
@@ -1079,17 +1079,15 @@
 				INFOPLIST_FILE = "Eve of Impact-Info.plist";
 				INSTALL_OWNER = rikschennink;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/testflight\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.eveofimpact;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.endofworld;
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VERSION_INFO_BUILDER = rikschennink;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSION_INFO_BUILDER = PangXie;
 			};
 			name = Debug;
 		};
@@ -1098,7 +1096,7 @@
 			buildSettings = {
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
@@ -1113,25 +1111,23 @@
 				INFOPLIST_FILE = "Eve of Impact-Info.plist";
 				INSTALL_OWNER = rikschennink;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/testflight\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.eveofimpact;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.endofworld;
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VERSION_INFO_BUILDER = rikschennink;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSION_INFO_BUILDER = PangXie;
 			};
 			name = Release;
 		};
 		AF064F5014EC43470024DE70 /* App Store Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALTERNATE_OWNER = rikschennink;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALTERNATE_OWNER = PangXie;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COMPRESS_PNG_FILES = NO;
@@ -1141,14 +1137,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_OWNER = rikschennink;
+				INSTALL_OWNER = PangXie;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = "App Store Distribution";
 		};
@@ -1157,7 +1153,7 @@
 			buildSettings = {
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
@@ -1173,25 +1169,23 @@
 				INFOPLIST_FILE = "Eve of Impact-Info.plist";
 				INSTALL_OWNER = rikschennink;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/testflight\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.eveofimpact;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.endofworld;
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VERSION_INFO_BUILDER = rikschennink;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSION_INFO_BUILDER = PangXie;
 			};
 			name = "App Store Distribution";
 		};
 		AF2C37ED1428EB8100BAC737 /* Ad Hoc Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALTERNATE_OWNER = rikschennink;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALTERNATE_OWNER = PangXie;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COMPRESS_PNG_FILES = NO;
@@ -1201,14 +1195,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_OWNER = rikschennink;
+				INSTALL_OWNER = PangXie;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = "Ad Hoc Distribution";
 		};
@@ -1217,7 +1211,7 @@
 			buildSettings = {
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
@@ -1233,25 +1227,23 @@
 				INFOPLIST_FILE = "Eve of Impact-Info.plist";
 				INSTALL_OWNER = rikschennink;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/testflight\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.eveofimpact;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mengyoutu.endofworld;
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VERSION_INFO_BUILDER = rikschennink;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				VERSION_INFO_BUILDER = PangXie;
 			};
 			name = "Ad Hoc Distribution";
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALTERNATE_OWNER = rikschennink;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALTERNATE_OWNER = PangXie;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
@@ -1263,21 +1255,21 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_OWNER = rikschennink;
+				INSTALL_OWNER = PangXie;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALTERNATE_OWNER = rikschennink;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ALTERNATE_OWNER = PangXie;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
@@ -1286,14 +1278,14 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_OWNER = rikschennink;
+				INSTALL_OWNER = PangXie;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv6 armv7";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

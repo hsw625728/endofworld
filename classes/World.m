@@ -183,8 +183,11 @@
 	for (i=0; i<count; i++) {
 		for (j=i+1; j<count; j++) {
 			
-			a = (*objectAtIndexIMP)(collidables,objectAtIndexSelector,i);
-			b = (*objectAtIndexIMP)(collidables,objectAtIndexSelector,j);
+            //这样写在32位机器上会崩溃
+			//a = (*objectAtIndexIMP)(collidables,objectAtIndexSelector,i);
+			//b = (*objectAtIndexIMP)(collidables,objectAtIndexSelector,j);
+            a = [collidables objectAtIndex:i];
+            b = [collidables objectAtIndex:j];
 			
 			// check if objects CAN collide with each other
 			if ([a canCollideWith:b] || [b canCollideWith:a]) {
