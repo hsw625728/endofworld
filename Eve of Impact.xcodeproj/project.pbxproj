@@ -15,6 +15,7 @@
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
 		4BAC17E7169A0A85002938EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC17E6169A0A85002938EC /* Default-568h@2x.png */; };
 		4BF3674016942C3100C4E331 /* AchievementDispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B287CD41693721400A7AA0D /* AchievementDispenser.m */; };
+		58C51AA51E729C880079C1E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C51AA41E729C880079C1E7 /* Images.xcassets */; };
 		AF01B4B9118C2BC2008F0793 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = AF01B4B8118C2BC2008F0793 /* Button.m */; };
 		AF01EDBC131004A700643BDD /* ShuttleStateBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = AF01EDBB131004A700643BDD /* ShuttleStateBehaviour.m */; };
 		AF0249BE13143509009D58EA /* ShieldIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0249BD13143509009D58EA /* ShieldIndicator.m */; };
@@ -133,6 +134,7 @@
 		4B287CD31693721400A7AA0D /* AchievementDispenser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AchievementDispenser.h; path = classes/AchievementDispenser.h; sourceTree = SOURCE_ROOT; };
 		4B287CD41693721400A7AA0D /* AchievementDispenser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AchievementDispenser.m; path = classes/AchievementDispenser.m; sourceTree = SOURCE_ROOT; };
 		4BAC17E6169A0A85002938EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		58C51AA41E729C880079C1E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Eve of Impact/Images.xcassets"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Eve of Impact-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Eve of Impact-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AF01B4B7118C2BC2008F0793 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
 		AF01B4B8118C2BC2008F0793 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				58C51AA41E729C880079C1E7 /* Images.xcassets */,
 				AF5CC1A31584FCD0000EED78 /* Icons */,
 				AF5CC1A01584FC7B000EED78 /* Splash */,
 				AF9CDBFE1516742400725C72 /* name-input@2x.png */,
@@ -941,6 +944,7 @@
 				AFFB42AC1176EC3600682F6B /* texture-atlas.png in Resources */,
 				AF0E0B8D1247E0EA0003A63E /* scanlines.png in Resources */,
 				AF92BE0E124D3BC900708F7B /* texture-atlas-interface.png in Resources */,
+				58C51AA51E729C880079C1E7 /* Images.xcassets in Resources */,
 				AFC28A53140965F900BB4E28 /* Defaults.plist in Resources */,
 				AF8B50BA142A822600382E68 /* name-input.png in Resources */,
 				AF751E231514820700465B3C /* texture-atlas@2x.png in Resources */,
@@ -1059,6 +1063,8 @@
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -1082,7 +1088,7 @@
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSION_INFO_BUILDER = rikschennink;
 			};
 			name = Debug;
@@ -1093,6 +1099,8 @@
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -1114,7 +1122,7 @@
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSION_INFO_BUILDER = rikschennink;
 			};
 			name = Release;
@@ -1150,6 +1158,8 @@
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
@@ -1172,7 +1182,7 @@
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSION_INFO_BUILDER = rikschennink;
 			};
 			name = "App Store Distribution";
@@ -1208,6 +1218,8 @@
 				ALTERNATE_OWNER = rikschennink;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
@@ -1230,7 +1242,7 @@
 				PRODUCT_NAME = "Eve of Impact";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSION_INFO_BUILDER = rikschennink;
 			};
 			name = "Ad Hoc Distribution";
